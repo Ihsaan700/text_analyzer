@@ -1,3 +1,6 @@
-# frozen_string_literal: true
+# counting number of lines
+lines = File.readlines('text.txt')
+line_count = lines.size
+puts "#{line_count} lines"
 
-puts 'first commit'
+text = lines.join
