@@ -12,3 +12,7 @@ puts "#{total_characters} characters"
 # counting characters without whitespace
 total_characters_nospaces = text.gsub(/\s+/, '').length
 puts "#{total_characters_nospaces} characters (excluding whitespace)"
+
+# counting words
+word_count = text.split.length
+puts "#{word_count} words"
